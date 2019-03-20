@@ -1,14 +1,4 @@
-# Problem Set 2, hangman.py
-# Name: 
-# Collaborators:
-# Time spent:
 
-# Hangman Game
-# -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
 import random
 import string
 
@@ -42,7 +32,7 @@ def choose_word(wordlist):
     """
     return random.choice(wordlist)
 
-# end of helper code
+
 
 # -----------------------------------
 
@@ -264,7 +254,7 @@ def match_with_gaps(my_word, other_word):
         _ , and my_word and other_word are of the same length;
         False otherwise: 
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
+  
     
 
 
